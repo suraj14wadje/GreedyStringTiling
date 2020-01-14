@@ -68,6 +68,9 @@ public class GreedyStringTiling {
 		}
 		System.out.println("\nSuspected Plagirism: "+result.suspectedPlagiarism);
 		
+		GreedyStringTiling.matchList.clear();
+		GreedyStringTiling.tiles.clear();
+		
 		return result;
 	}
 
